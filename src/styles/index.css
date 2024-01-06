@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
-  font-family: Montserrat, system-ui, Raleway, Helvetica, Arial, sans-serif;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -33,28 +32,38 @@ body {
 .kenpo-section {
   background: linear-gradient(#56c1ff, 10%, #daf1ff);
 }
+.home-text, .kenpo-text, .wood-text {
+  margin: 1.2rem 2rem;
+  width: 80%;
+}
 .kenpo-title {
   font-family: 'Reggae One', system-ui, -apple-system;
 }
 p {
-  font-size: 0.8em;
+  font-size: 1.2em;
   font-family: 'Roboto', sans-serif;
+  margin: 2em auto;
 }
 .wood-section {
   background: linear-gradient(#60e3a4, 15%, #b7fad9);
 }
 .wood-item {
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.8rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
   margin: 0.9rem auto;
   list-style: disc;
 }
-
+.social-icons {
+  padding: .5rem .9rem;
+  border-radius: 50%;
+}
 .bi-instagram{
-  font-size: 1.9em;
+  font-size: 2rem;
   color: #00bf63;
 }
-
+.copyright {
+  margin-bottom: 5px;
+}
 @media screen and (min-width: 990px) {
   .justify-content-center {
     justify-content: flex-end!important;
@@ -75,21 +84,17 @@ p {
     margin-left: 2em;
     width: 110vw;
   }
-  .kenpo-text {
-    margin: 2em 3em 2em 1em;
+  .kenpo-text, .wood-text {
+    margin: 2rem 3rem;
     width: 100vw;
   }
 
   .wood-section {
-    flex-direction: row!important;
+    flex-direction: row-reverse!important;
     align-items: center;
   }
   .wood-banner {
-    margin-left: 2em;
-    width: 110vw;
-  }
-  .wood-text {
-    margin: 2em 3em 2em 1em;
+    margin-right: 2em;
     width: 100vw;
   }
 

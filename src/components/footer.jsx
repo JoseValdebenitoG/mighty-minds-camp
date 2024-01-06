@@ -6,16 +6,14 @@ function Footer() {
       <h4 className="footer-title text-center p-4 text-white">
         Síguenos en nuestro Instagram:
       </h4>
-      <section className="social-icons d-flex flex-wrap align-items-center justify-content-center bg-white px-2 mb-4 rounded-circle">
-        <a
-          href="https://www.instagram.com/mightymindscamp"
-          className="social-link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="bi bi-instagram"></i>
-        </a>
-      </section>
+      <a
+        href="https://www.instagram.com/mightymindscamp"
+        className="social-icons d-flex flex-wrap align-items-center justify-content-center bg-white"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="bi bi-instagram"></i>
+      </a>
       <img
         src={logoMMC}
         alt="logo Mighty Minds"

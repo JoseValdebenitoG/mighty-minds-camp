@@ -5,13 +5,9 @@ export default function Wood() {
   return (
     <section className="wood-section d-flex flex-column">
       <div className="wood-banner">
-        <img
-          src={woodban}
-          alt="banner taller carpintería"
-          className="banner my-3 px-3 w-100"
-        />
+        <img src={woodban} alt="banner taller carpintería" className="banner" />
       </div>
-      <div className="wood-text px-4 m-4">
+      <div className="wood-text">
         <h2 className="wood-title ">Carpintería Kids</h2>
         <h5>
           ¡Descubre el mundo de la carpintería y crea tu propio juguete único!

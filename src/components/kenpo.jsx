@@ -5,13 +5,9 @@ export default function Kenpo() {
   return (
     <section className="kenpo-section d-flex flex-column">
       <div className="kenpo-banner">
-        <img
-          src={kenpoban}
-          alt="banner taller kenpo"
-          className="banner my-3 px-3 w-100"
-        />
+        <img src={kenpoban} alt="banner taller kenpo" className="banner" />
       </div>
-      <div className="kenpo-text px-4 m-4">
+      <div className="kenpo-text">
         <h2 className="kenpo-title">Técnicas contra el bullying</h2>
         <p>
           Únete a nuestro taller impartido por Karina Gatica, instructora de

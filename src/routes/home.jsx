@@ -7,7 +7,7 @@ export default function Home() {
       <div>
         <img src={banner} alt="banner mmc" className="banner" />
       </div>
-      <section className="container mt-4 w-75">
+      <section className="home-text container">
         <h2>Quienes Somos</h2>
         <p>
           <strong>Misión</strong>: "En Mighty Minds Camp, nuestra misión es
