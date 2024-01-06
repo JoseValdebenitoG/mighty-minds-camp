@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  font-family: Montserrat, system-ui, Raleway, Helvetica, Arial, sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+.navbar {
+  background-color: rgba(1, 1, 1, 0.93);
+}
+.navbar-toggler, .btn-close {
+  color: transparent;
+}
+.nav-link {
+  color: #f1f1f1;
+}
+.banner {
+  width: 100%;
+}
+.home {
+  background: linear-gradient(#FFDE59, 15%, #fff8dc);
+  padding-bottom: 1.4em;
+}
+.kenpo-section {
+  background: linear-gradient(#56c1ff, 10%, #daf1ff);
+}
+.kenpo-title {
+  font-family: 'Reggae One', system-ui, -apple-system;
+}
+p {
+  font-size: 0.8em;
+  font-family: 'Roboto', sans-serif;
+}
+.wood-section {
+  background: linear-gradient(#60e3a4, 15%, #b7fad9);
+}
+.wood-item {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  margin: 0.9rem auto;
+  list-style: disc;
+}
+
+.bi-instagram{
+  font-size: 1.9em;
+  color: #00bf63;
+}
+
+@media screen and (min-width: 990px) {
+  .justify-content-center {
+    justify-content: flex-end!important;
+  }
+  .nav-link:hover {
+    color: #38B6ff;
+    font-weight: bold;
+  }
+  .container-fluid {
+    max-width: 80%;
+  }
+
+  .kenpo-section {
+    flex-direction: row!important;
+    align-items: center;
+  }
+  .kenpo-banner {
+    margin-left: 2em;
+    width: 110vw;
+  }
+  .kenpo-text {
+    margin: 2em 3em 2em 1em;
+    width: 100vw;
+  }
+
+  .wood-section {
+    flex-direction: row!important;
+    align-items: center;
+  }
+  .wood-banner {
+    margin-left: 2em;
+    width: 110vw;
+  }
+  .wood-text {
+    margin: 2em 3em 2em 1em;
+    width: 100vw;
+  }
+
+  .copyright {
+    padding-left:2em;
+    width: 100vw;
+  }
+  .footer-logo {
+    width: 25em;
+  }
+}
