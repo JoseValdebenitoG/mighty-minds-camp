@@ -23,7 +23,7 @@ function NavBar() {
           id="navbarNav"
         >
           <div className="offcanvas-header justify-content-between">
-            <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel">
+            <h5 className="title" id="offcanvasDarkNavbarLabel">
               Mighty Minds
             </h5>
             <button

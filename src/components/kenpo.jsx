@@ -7,26 +7,25 @@ export default function Kenpo() {
       <div className="kenpo-banner">
         <img src={kenpoban} alt="banner taller kenpo" className="banner" />
       </div>
-      <div className="kenpo-text">
-        <h2 className="kenpo-title">Técnicas contra el bullying</h2>
+      <div className="texts">
+        <h2 className="title">Técnicas contra el bullying</h2>
         <p>
-          Únete a nuestro taller impartido por Karina Gatica, instructora de
-          kenpo karate en Fighter Dragons Kenpo Studio con 6 años de
-          experiencia. Aprende técnicas efectivas y fortalece tu autoestima en
-          un ambiente seguro y motivador. Taller desde 4 a 11 años. Duración
-          1:30 aproximadamente Incluye hidratación, baño privado y lugar para
-          dejar tus pertenencias de manera segura mientras se imparte la clase.
-          Ubicación a pasos del metro santa ana. Cupos por bloque: 10 Valor
-          15000 por alumno, consulta por precios para hermanos. Medios de pago:
-          Webpay
+          En nuestro taller especializado de 'Técnicas de Defensa contra el
+          Bullying', bajo la tutela de Karina Gatica, con 6 años de experiencia
+          en Kenpo, tus hijos aprenderán habilidades esenciales para enfrentar
+          el bullying. En un entorno seguro y acogedor, los niños de 4 a 11 años
+          adquirirán destrezas para protegerse, fortalecer su autoestima y
+          aprender a afrontar situaciones desafiantes. ¡Preparamos a tus
+          pequeños para un mundo más seguro y confiado! Regístralos ahora para
+          que se conviertan en su propia defensa.
         </p>
         <a
           href="https://forms.gle/qER45ERz5UbnBtUk6"
           target="_blank"
-          className="btn btn-outline-primary"
+          className="btn btn-outline-primary disabled"
           role="button"
         >
-          Inscríbete aquí
+          Cancelado
         </a>
       </div>
     </section>

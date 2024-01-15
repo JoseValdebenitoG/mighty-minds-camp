@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
-
+  font-family: 'Roboto', sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -19,11 +19,22 @@ body {
 .navbar-toggler, .btn-close {
   color: transparent;
 }
+
 .nav-link {
   color: #f1f1f1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
 }
 .banner {
   width: 100%;
+}
+.texts {
+  margin: 1.2rem 2rem;
+  width: 80%;
+}
+.btn {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
 }
 .home {
   background: linear-gradient(#FFDE59, 15%, #fff8dc);
@@ -32,29 +43,34 @@ body {
 .kenpo-section {
   background: linear-gradient(#56c1ff, 10%, #daf1ff);
 }
-.home-text, .kenpo-text, .wood-text {
-  margin: 1.2rem 2rem;
-  width: 80%;
-}
-.kenpo-title {
+.title {
   font-family: 'Reggae One', system-ui, -apple-system;
+  font-size: 2em;
+}
+.subtitle {
+  margin-top: 1.2em;
 }
 p {
   font-size: 1.2em;
   font-family: 'Roboto', sans-serif;
   margin: 2em auto;
+  line-height: 1.1em;
 }
 .wood-section {
   background: linear-gradient(#60e3a4, 15%, #b7fad9);
 }
-.wood-item {
+.wood-subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
+.list-item {
   font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
   margin: 0.9rem auto;
   list-style: disc;
 }
 .social-icons {
-  padding: .5rem .9rem;
+  padding: .5rem .5rem;
   border-radius: 50%;
 }
 .bi-instagram{
@@ -62,11 +78,14 @@ p {
   color: #00bf63;
 }
 .copyright {
-  margin-bottom: 5px;
+  font-size: .8rem;
 }
 @media screen and (min-width: 990px) {
   .justify-content-center {
     justify-content: flex-end!important;
+  }
+  .nav-link {
+    font-size: 1.1rem;
   }
   .nav-link:hover {
     color: #38B6ff;
@@ -81,10 +100,10 @@ p {
     align-items: center;
   }
   .kenpo-banner {
-    margin-left: 2em;
-    width: 110vw;
+    margin: 2em;
+    width: 100vw;
   }
-  .kenpo-text, .wood-text {
+  .texts {
     margin: 2rem 3rem;
     width: 100vw;
   }
@@ -95,7 +114,7 @@ p {
   }
   .wood-banner {
     margin-right: 2em;
-    width: 100vw;
+    width: 90vw;
   }
 
   .copyright {
