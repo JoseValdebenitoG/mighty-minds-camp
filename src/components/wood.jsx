@@ -46,12 +46,12 @@ export default function Wood() {
           donde cada niño podrá explorar su creatividad y habilidades manuales.
         </p>
         <a
-          href="#"
+          href="https://forms.gle/qER45ERz5UbnBtUk6"
           target="_blank"
-          className="btn btn-outline-success disabled"
+          className="btn btn-outline-success"
           role="button"
         >
-          Próximamente...
+          Inscríbite aquí
         </a>
       </div>
     </section>
